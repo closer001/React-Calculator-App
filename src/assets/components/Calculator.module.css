@@ -78,6 +78,7 @@
     align-items: flex-end;
     justify-content: flex-end;
     border: 2px solid black;
+    overflow: hidden;
 }
 
 .displayLetters{
