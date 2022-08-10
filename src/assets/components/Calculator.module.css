@@ -1,0 +1,86 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 1rem;
+    background: #8395a7;
+    box-shadow: 17px 17px 23px -13px #000000;
+
+}
+
+.numberButtons{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 8px;
+    margin: 0.3rem;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.numberButtons:nth-child(-n+3){
+    background: rgb(210, 210, 210);
+}
+
+.numberButtons:nth-child(4n){
+    background: #ff9500;
+    color: #fff;
+}
+
+.numberButtons:nth-child(19){
+    background: #ff9500;
+    color: #fff;
+}
+
+.numberButtons:nth-child(17){
+    width: 6.5rem;
+    text-align: center;
+}
+
+.numberButtons:nth-child(n+5):nth-child(-n+7){
+    background: #808080;
+    color: #fff;
+
+}
+.numberButtons:nth-child(n+9):nth-child(-n+11){
+    background: #808080;
+    color: #fff;
+
+}
+.numberButtons:nth-child(n+13):nth-child(-n+15){
+    background: #808080;
+    color: #fff;
+
+}
+.numberButtons:nth-child(n+17):nth-child(-n+18){
+    background: #808080;
+    color: #fff;
+
+}
+
+.numberContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 15.625rem;
+}
+
+.displayResult{
+    width: 15.625rem;
+    height: 4rem;
+    background-color: #cecece;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: 2px solid black;
+}
+
+.displayLetters{
+    color: black;
+    margin: 0 0.9rem;
+}
