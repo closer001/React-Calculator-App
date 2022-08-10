@@ -23,6 +23,7 @@
 
 .numberButtons:nth-child(-n+3){
     background: rgb(210, 210, 210);
+    color: #000000;
 }
 
 .numberButtons:nth-child(4n){
